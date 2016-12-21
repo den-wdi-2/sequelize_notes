@@ -16,3 +16,9 @@ Successfully created seeders folder at "/Users/zebgirouard/Coding/angular_sequal
 Deleting the models folder. (--force)
 Successfully deleted the models folder.
 Successfully created models folder at "./server/models".
+
+The tutorial is inconsistent on where it thinks `config.js` is.  This causes problems.
+
+If you see this error: `Please install 'pg' module manually`
+
+Run this: `npm install -g pg`
