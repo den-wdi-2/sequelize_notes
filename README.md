@@ -22,3 +22,7 @@ The tutorial is inconsistent on where it thinks `config.js` is.  This causes pro
 If you see this error: `Please install 'pg' module manually`
 
 Run this: `npm install -g pg`
+
+Connection to postgres looks like this:
+
+`postgres://zebgirouard@localhost:5432/bookmark` where `zebgirouard` should be replaced by local username.
