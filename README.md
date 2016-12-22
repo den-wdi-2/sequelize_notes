@@ -17,7 +17,7 @@ Deleting the models folder. (--force)
 Successfully deleted the models folder.
 Successfully created models folder at "./server/models".
 
-The tutorial is inconsistent on where it thinks `config.js` is.  This causes problems.
+The tutorial is inconsistent on where it thinks `config.js` is.  This causes problems.  I mean, just in general, they don't know their file structure.
 
 If you see this error: `Please install 'pg' module manually`
 
@@ -26,3 +26,5 @@ Run this: `npm install -g pg`
 Connection to postgres looks like this:
 
 `postgres://zebgirouard@localhost:5432/bookmark` where `zebgirouard` should be replaced by local username.
+
+The tutorial makes no mention of body-parser until the second part, but you need it in the first part.
